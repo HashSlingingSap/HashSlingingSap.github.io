@@ -1,0 +1,54 @@
+* {
+font-family: Arial;
+color: #F1F1F1;
+}
+
+a {
+color: #3EA6FF;
+}
+
+a:hover {
+color: #3EA6FF;
+text-decoration: none;
+}
+
+body,
+#jp_container_1,
+.jp-details,
+div.jp-interface,
+div.jp-title,
+div.jp-play
+{
+background: #0F0F0F;
+}
+
+.jp-seek-bar,
+.jp-volume-bar,
+div.jp-seek-bar
+{
+	background: #272727;
+}
+
+.jp-play-bar,
+.jp-volume-bar-value,
+div.jp-play-bar {
+background: #FF0034;
+}
+
+.sound-details,
+.jp-audio,
+div.jp-audio,
+div.jp-play,
+div.jp-pause
+{
+border-color: #0F0F0F;
+}
+
+.jp-description {
+background: #272727;
+padding-top: 1px;
+padding-bottom: 0px;
+padding-left: 20px;
+padding-right: 20px;
+border-radius: 15px;
+}
