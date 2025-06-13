@@ -16,17 +16,24 @@ body,
 #jp_container_1,
 .jp-details,
 div.jp-interface,
-div.jp-title,
-div.jp-play
+div.jp-title
 {
-background: #0F0F0F;
+background: #0f0f0f;
 }
 
+div.jp-play,
+div.jp-pause,
 .jp-seek-bar,
 .jp-volume-bar,
 div.jp-seek-bar
 {
-	background: #272727;
+background: #272727;
+}
+
+div.jp-play,
+div.jp-pause
+{
+border-radius: 15px;
 }
 
 .jp-play-bar,
@@ -41,13 +48,13 @@ div.jp-audio,
 div.jp-play,
 div.jp-pause
 {
-border-color: #0F0F0F;
+border-color: #0f0f0f;
 }
 
 .jp-description {
 background: #272727;
 padding-top: 5px;
-padding-bottom: 15px;
+padding-bottom: 10px;
 padding-left: 20px;
 padding-right: 20px;
 border-radius: 15px;
