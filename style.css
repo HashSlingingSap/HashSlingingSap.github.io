@@ -39,7 +39,7 @@ border-radius: 15px;
 .jp-play-bar,
 .jp-volume-bar-value,
 div.jp-play-bar {
-background: #FF0034;
+background: linear-gradient(to right, #FF0034, #FF258C);
 }
 
 .sound-details,
